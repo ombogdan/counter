@@ -1,0 +1,23 @@
+.counter {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+}
+.counter p{
+ margin: 10px;
+}
+button{
+    width: 60px;
+    height: 30px;
+}
+textarea{
+    margin-left: 10px;
+    width: 90px;
+    height: 23px;
+
+}
+.newBtn{
+    margin-top: 40px;
+    margin-left: -470px;
+}
