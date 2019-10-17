@@ -1,11 +1,10 @@
 import React from "react";
 import "./counter.module.css";
-
 //import style from './counter.module.css'
 
 class Counter extends React.Component {
     state = {
-         count: 0,
+        count: 0,
         count1: 0
     };
 
@@ -17,21 +16,19 @@ class Counter extends React.Component {
 
     numberOfClick = () => {
         this.setState({
-            count1: this.state.count1 + 1,
-            alert: function (count1) {
-            }
+            count1: this.state.count1 + 1
         })
     };
     addNewBtn = () => {
         let btn = document.getElementById('nameBtn').value;
         this.setState({
-            btn: <div>
+            btn: <div className="newColumn">
                 <button className="newBtn"
                         onClick={() => {
                             this.numberOfClick()
                         }}>
                     {btn}</button>
-                <p>{this.state.count1}</p>
+                <p className="q">{this.state.count1}</p>
             </div>
         })
     };
@@ -54,7 +51,7 @@ class Counter extends React.Component {
                     Add
                 </button>
                 <textarea id="nameBtn"/>
-                    {this.state.btn}
+                {this.state.btn}
             </div>
         );
     }

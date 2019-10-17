@@ -3,10 +3,21 @@
     margin-top: 10px;
     margin-left: 20px;
     display: flex;
+
 }
 .counter p{
  margin: 10px;
 }
+
+.newColumn p{
+    margin-top: -24px;
+    margin-left: -350px;
+}
+.newColumn button{
+    margin-top: 35px;
+    margin-left: -450px;
+}
+
 button{
     width: 60px;
     height: 30px;
@@ -18,6 +29,7 @@ textarea{
 
 }
 .newBtn{
-    margin-top: 40px;
-    margin-left: -470px;
+
 }
+
+
